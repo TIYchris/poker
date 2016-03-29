@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif; }
+
+* {
+  box-sizing: inherit; }
+  *:before {
+    box-sizing: inherit; }
+  *:after {
+    box-sizing: inherit; }
+body {    
+	background: url("../images/poker.jpg");
+    background-size: 1920px 960px;
+    background-repeat: no-repeat;
+}
+
+
+.list {
+ 	display: flex;
+ 	flex-direction: column;
+ }
+ #statementForm {
+ 	display: flex;
+ 	flex-direction: column;
+ 	position: relative;
+
+ }
+ #container{
+ 	height: 260px;
+ 	width: 300px;
+ 	margin-left:100px;
+ }
+ #dataTemplate{
+ 	height: 100%;
+ 	width: 1100px;
+ 	background-color: #030200;
+ }
+ .form{
+ 	margin-top: 10px;
+
+ }
+ .button {
+ 	width:100px;
+ 	padding:5px;
+ 	position: relative;
+ 	margin-left: 95px;
+ 	margin-top:20px;
+ }
+ #casino{
+	margin-top:20px;
+ }
+ #app{
+ 	color:white;
+ 	top:-260px;
+ 	left:800px;
+ 	position: relative;
+ }
